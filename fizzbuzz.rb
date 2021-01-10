@@ -5,5 +5,6 @@ require pry
 def fizzbuzz(int)
   if int == % 3
     "Fizz"
+    binding.pry
   end
 end
